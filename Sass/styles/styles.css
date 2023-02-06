@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 160px;
+}
+
+.box, .box2, .box3, .box4, .box5, .box6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Basic, #Cal, #Pre-Algebra, #Algebra, #Trig, .Basic, .basicActive, .BasicCorrect {
+  margin-top: 50px;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  transition: opacity ease-out 0.2s, width 50ms;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Basic:hover, .BasicCorrect:hover, #Basic:hover, #Cal:hover, #Pre-Algebra:hover, #Algebra:hover, #Trig:hover {
+  opacity: 0.8;
+}
+
+.Basic:active, #Basic:active, #Cal:active, #Pre-Algebra:active, #Algebra:active, #Trig:hover {
+  opacity: 0.4;
+}
+
+#Basic {
+  background: #ACCC2D;
+}
+
+.Basic, .BasicCorrect, .basicActive {
+  background-color: #F58A4C;
+  filter: contrast(1);
+}
+
+#Cal {
+  background-color: #4C9141;
+}
+
+#Pre-Algebra {
+  background-color: #1B5583;
+}
+
+#Algebra {
+  background-color: #6314AE;
+}
+
+#Trig {
+  background-color: #3F888F;
+}
+
+@font-face {
+  font-family: "Math";
+  src: url(Fonts/latinmodern-math.otf);
+}
+#Math-mode {
+  font-family: Math;
+  font-size: x-large;
+}
+
+.homeiconbox {
+  position: absolute;
+  left: 20px;
+  top: 6px;
+}
+
+.homeicon, .homeicon2 {
+  height: 45px;
+  width: 45px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.homeiconbox2 {
+  position: absolute;
+  left: 100px;
+  top: 5px;
+  height: 33px;
+  width: 33px;
+}
+
+.homeiconbox3 {
+  position: absolute;
+  top: 6px;
+  left: 85px;
+}
+
+.widthAndHeight {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 120px;
+  top: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
